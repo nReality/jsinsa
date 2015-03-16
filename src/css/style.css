@@ -453,16 +453,14 @@ About section
 }
 
 .about-section-more{
-    margin-top:30px;
-    margin-bottom: 0px;
+    padding-top:30px;
+	background-color:#f7f7f7;
 }
 .about-more-info{
     margin-bottom: 30px;
 }
-.about-more-info p:first-letter{
-    color:#35bdf6;
-    font-weight: 400;
-    font-size: 20px;
+.about-section-more p {
+	text-align:justify;
 }
 .skills-wrapper{
     margin-bottom: 30px;
