@@ -509,14 +509,13 @@ h3.heading-progress {
 /**********************************
   agenda section css here
 ***********************************/
-.timetable {margin-left:100px;margin-right:100px;}
 .timetable td { 
 	height:55px;
 	width: 45%; 
 	/*background-color:#f7f7f7;*/
 	padding:5px;
-	border-bottom:1px solid #f7f7f7;
-	border-left:1px solid #f7f7f7;
+	border-bottom:1px solid #eeeeee;
+	border-left:1px solid #eeeeee;
 }
 .timetable td:nth-child(1) { 
 	text-align:center;
