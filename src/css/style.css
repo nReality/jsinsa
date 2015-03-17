@@ -949,10 +949,10 @@ bootstrap overrides badge and pagination
     margin-bottom: 40px;
 }
 .pricing-wrapper{
-    padding: 5px;
+    padding: 0px;
     margin-bottom: 20px;
     border-radius: 5px;
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.4);
+	box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.3);
 }
 
 .price-popular .pricing-wrapper-inner h2{
@@ -985,7 +985,8 @@ bootstrap overrides badge and pagination
 }
 .price-desc p{
     color:#333;
-    line-height: 2.5;
+    line-height: 1.5;
+	margin-bottom: 20px;
 }
 .price-join{
     padding:10px 0;
