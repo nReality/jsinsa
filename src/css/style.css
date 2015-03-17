@@ -507,9 +507,25 @@ h3.heading-progress {
     float: right;
 }
 /**********************************
-
+  agenda section css here
+***********************************/
+.timetable {margin-left:100px;margin-right:100px;}
+.timetable td { 
+	height:55px;
+	width: 45%; 
+	/*background-color:#f7f7f7;*/
+	padding:5px;
+	border-bottom:1px solid #f7f7f7;
+	border-left:1px solid #f7f7f7;
+}
+.timetable td:nth-child(1) { 
+	text-align:center;
+	font-weight:400;
+	width: 10%; 
+	border-left:0px;
+}
+/**********************************
   services section css here
-
 ***********************************/
 
 .services-section-1{
