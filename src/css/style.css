@@ -490,8 +490,8 @@ h3.heading-progress {
     -webkit-box-shadow: none;
 }
 /*purchase now section*/
-.purchase-now{
-    background: url('../img/bread-bg.jpg') no-repeat center center fixed;
+.agenda-section-2{
+    background: url('../img/showcase-agenda.jpg') no-repeat center center fixed;
     width:100%;
     padding: 70px 0;
     -webkit-background-size: cover;
@@ -500,13 +500,13 @@ h3.heading-progress {
     background-size: cover;
     position: relative;
 }
-.purchase-now h1{
+.agenda-section-2 h1{
     margin: 0px;
     font-weight: 400;
     text-transform: uppercase;
-    color:#333;
+    color:#fff;
 }
-.purchase-now .btn-theme-color{
+.agenda-section-2 .btn-theme-color{
     float: right;
 }
 /**********************************
@@ -526,11 +526,52 @@ h3.heading-progress {
 	width: 10%; 
 	border-left:0px;
 }
+
+/**********************************
+  sponsors section css here
+***********************************/
+.sponsors-section-1{
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+.sponsors-row {
+}
+.sponsors-box {
+	margin-bottom:20px;
+	padding:10px;
+	border-radius:5px;
+	box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.3);
+}
+.sponsors-row img{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.sponsors-section-2{
+    background: url('../img/showcase-sponsors.jpg') no-repeat center center fixed;
+    width:100%;
+    padding: 90px 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+.sponsors-section-2 h1{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color:#fff;
+}
+.sponsors-section-2 p{
+    margin: 0px;
+}
 /**********************************
   services section css here
 ***********************************/
 
-.services-section-1{
+.agenda-section-1{
     margin-bottom: 30px;
 }
 .services-icon i{
@@ -755,7 +796,7 @@ bootstrap overrides badge and pagination
           our work section
 **********************************/
 
-.work-section-1{
+.speakers-section-1{
     margin-bottom: 30px;
 }
 /*mix it up filter*/
@@ -876,6 +917,26 @@ bootstrap overrides badge and pagination
     box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.5);
 }
 
+.speakers-section-2{
+    background: url('../img/showcase-speakers.jpg') no-repeat center center fixed;
+    width:100%;
+    padding: 90px 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+.speakers-section-2 h1{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color:#fff;
+}
+.speakers-section-2 p{
+    margin: 0px;
+}
 
 /*****tooltip************/
 
@@ -946,8 +1007,7 @@ bootstrap overrides badge and pagination
 
 
 /*****************Pricing tables******************/
-.pricing-section-1{
-
+.register-section-1{
     background-color: #fff;
     margin-bottom: 40px;
 }
@@ -995,9 +1055,9 @@ bootstrap overrides badge and pagination
     padding:10px 0;
     border-top:1px solid #eee;
 }
-/*pricing-section-2 for contact us*/
-.pricing-section-2{
-    background: url('../img/showcase-3.jpg') no-repeat center center fixed;
+/*register-section-2 for contact us*/
+.register-section-2{
+    background: url('../img/showcase-register.jpg') no-repeat center center fixed;
     width:100%;
     padding: 90px 0;
     -webkit-background-size: cover;
@@ -1006,14 +1066,14 @@ bootstrap overrides badge and pagination
     background-size: cover;
     position: relative;
 }
-.pricing-section-2 h1{
+.register-section-2 h1{
     margin-top: 0px;
     margin-bottom: 30px;
     text-transform: uppercase;
     font-weight: 300;
     color:#fff;
 }
-.pricing-section-2 p{
+.register-section-2 p{
     margin: 0px;
 }
 /****************responsive css 768px*********************/
@@ -1051,13 +1111,13 @@ bootstrap overrides badge and pagination
     #page-head-bg h1{
         font-size: 3em; 
     }
-    .purchase-now{
+    .agenda-section-2{
         text-align: center !important;
     }
-    .purchase-now h1{
+    .agenda-section-2 h1{
         margin-bottom: 20px;
     }
-    .purchase-now .btn-theme-color{
+    .agenda-section-2 .btn-theme-color{
         float: none;
     }
 
@@ -1113,7 +1173,7 @@ iframe{
 
 /**fun facts***/
 .fun-facts{
-    background: url(../img/showcase-3.jpg); 
+    background: url(../img/showcase-stats.jpg); 
     padding: 90px 0;
 }
 .fact-inner{
