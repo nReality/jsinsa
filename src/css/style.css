@@ -121,13 +121,14 @@ h1.slide-logo{
     font-weight: 300;
     text-transform: uppercase;
 }
+
 h2.slide-btm-text{
     font-family: 'Open Sans', sans-serif !important;
     text-align: center;
     margin: 30px 0;
     font-weight: 300;
     color:#fff;
-    font-size: 16px;
+    font-size: 20px;
     text-transform: uppercase;
 }
 .main-flex-slider{
@@ -136,7 +137,7 @@ h2.slide-btm-text{
 }
 
 .main-flex-slider h1{
-    font-size: 2em;
+    font-size: 3em;
     color:#fff;
     text-transform: uppercase;
     font-weight: 300;
@@ -1111,8 +1112,10 @@ bootstrap overrides badge and pagination
 }
 /****************responsive css 768px*********************/
 
-
 @media(max-width:767px){
+	h1.slide-logo img{
+		width:300px;
+	}
     .blog-more-desc .social-colored{
         width:100%;
         float: none;
@@ -1157,11 +1160,14 @@ bootstrap overrides badge and pagination
 }
 @media(max-width:360px){
 
+	h1.slide-logo img{
+		width:200px;
+	}
     .home-overlay .main-flex-slider h1{
         margin-bottom: 20px;
     }
     .main-flex-slider h1{
-        font-size: 3.5em;
+        font-size: 2em;
         font-weight: 700;
         margin-bottom: 30px;
     }
