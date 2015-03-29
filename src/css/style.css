@@ -107,7 +107,7 @@ a:focus {
     height: 100%;
     background-image: url(../img/pattern.png);
     background-repeat: repeat;
-    background-color: rgba(44,62,80,0.6);
+/*    background-color: rgba(44,62,80,0.6);*/
     z-index: 2;
 }
 .home-content {
