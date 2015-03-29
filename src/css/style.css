@@ -171,6 +171,7 @@ bootstrap navbar overrides
     -moz-box-shadow:0 1px 5px rgba(0, 0, 0, 0.15);
     box-shadow:0 1px 5px rgba(0, 0, 0, 0.15);
 }
+
 .navbar-default .navbar-nav > li > a {
     color: #000;
     text-transform: uppercase;
@@ -178,6 +179,15 @@ bootstrap navbar overrides
     letter-spacing: .1em;
     font-weight: 400;
     font-family: 'Dosis', sans-serif;
+}
+@media (max-width: 1000px)
+{
+	.navbar-default .navbar-nav > li > a {
+		padding-right: 7px;
+		padding-left: 7px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -1196,8 +1206,14 @@ iframe{
 
 /**fun facts***/
 .fun-facts{
-    background: url(../img/showcase-stats.jpg); 
+    background: url('../img/showcase-stats.jpg') no-repeat center center fixed;
+    width:100%;
     padding: 90px 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
 }
 .fact-inner{
     text-align: center;
