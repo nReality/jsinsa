@@ -127,8 +127,8 @@ $(function() {
 /************parallax*********************/
 $(function(){
 			$.stellar({
-				horizontalScrolling: false;
-				responsive :true;
+				horizontalScrolling: false,
+				responsive :true
 			});
 		});
                 
