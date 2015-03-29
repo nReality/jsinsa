@@ -35,7 +35,6 @@ h2{
 }
 h3{
     font-size: 27px;
-
 }
 h4{
     font-size: 24px;
@@ -145,7 +144,6 @@ h2.slide-btm-text{
     margin-bottom: 60px;
     margin:0;
 }
-
 /*home arrow down*/
 .home-arrow-down{
     margin-top:60px;
@@ -493,7 +491,7 @@ h3.heading-progress {
 .agenda-section-2{
     background: url('../img/showcase-agenda.jpg') no-repeat center center fixed;
     width:100%;
-    padding: 70px 0;
+    padding: 125px 0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

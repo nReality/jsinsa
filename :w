@@ -360,11 +360,11 @@
                         <p>Interested in getting your brand in front of 150 developers?  Contact us and we can chat.</p>
 					</div>
 					<div class="row sponsors-row">
-						<div class="col-md-6 col-md-offset-3 sponsors-wrapper" style="text-align:center;">
+						<div class="col-md-6 sponsors-wrapper" style="text-align:center;">
 							<div class="sponsors-box">
 								<div class="row">
 									<div class="col-md-12">
-										<a href="http://nreality.com" target="_blank"><img src="img/sponsor-sample.png" style="width:300px;"></a>
+										<a href="http://nreality.com"<img src="img/sponsor-sample.png" style="width:400px;"></a>
 									</div>
 								</div>
 							</div>
