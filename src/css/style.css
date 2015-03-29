@@ -9,7 +9,6 @@
 
 /*--------------base-------
 */
-
 html, 
 body {
     height: 100%;
@@ -243,6 +242,32 @@ bootstrap navbar overrides
 
 }
 
+/* Bootstrap Modal overrides */
+body.modal-open {
+	    overflow: visible;
+	}
+
+.modal-open .modal {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  overflow-y: scroll;
+}
+
+.modal-body {
+	text-align:left;
+}
+
+.modal-body .icon {
+	vertical-align:middle;
+}
+.modal-footer .icon i {
+	position:relative;
+	top:3px;
+	padding-left:10px;
+	padding-right:5px;
+	font-size : 22px ;	
+	text-align:right;
+}
 
 /*************
 **headings****/
