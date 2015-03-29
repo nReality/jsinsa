@@ -121,7 +121,9 @@ h1.slide-logo{
     font-weight: 300;
     text-transform: uppercase;
 }
-
+h1.slide-logo img{
+    width:400px;
+}
 h2.slide-btm-text{
     font-family: 'Open Sans', sans-serif !important;
     text-align: center;
@@ -219,7 +221,9 @@ bootstrap navbar overrides
 .navbar-brand:hover{
     color:#000 !important;
 }
-
+.navbar-brand img {
+    width:148px;
+}
 /***************buttons*****************************/
 .btn {
     font-weight: 400;
