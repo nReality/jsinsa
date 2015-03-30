@@ -265,16 +265,71 @@
                         <div class="col-md-6 col-md-offset-3" style="text-align:center;">
 							<p>Our awesome speakers have not been announced yet.</p>
 							<p><strong>Are you keen to speak at JSinSA 2014?</strong></p>
-							<p style="text-align:justify;">We're open to any high-tech topic with a preference for JavaScript. Our formats will include 10 min lightning talks; 30 min feature talks and 45 min workshops. Bring your ideas and let's chat.
+							<p style="text-align:justify;">We're open to any high-tech topic with a preference for JavaScript. Our formats will include 10 min lightning talks; 30 min feature talks and 45 min workshops. Bring your ideas and let's chat.</p>
+							<button data-toggle="modal" class="btn btn-primary btn-lg" data-target="#modalSubmission">
+								Submit your idea			
+							</button>
                         </div>
                     </div>
                 </div>
             </div>
 
+			<div class="modal fade" id="modalSubmission" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<form class="form-horizontal">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h4 class="modal-title">Submit your talk</h4>
+							</div>
+							<div class="modal-body">
+								<div class="form-group">
+									<label for="inputName" class="col-sm-2 control-label">Name</label>
+									<div class="col-sm-10">
+										<input type="password" class="form-control" id="inputName" placeholder="Name and surname">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="inputEmail" class="col-sm-2 control-label">Email</label>
+									<div class="col-sm-10">
+										<input type="email" class="form-control" id="inputEmail" placeholder="Enter email">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="inputBio" class="col-sm-2 control-label">Bio</label>
+									<div class="col-sm-10">
+										<textarea class="form-control" id="inputBio" rows="3"></textarea>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="inputTitle" class="col-sm-2 control-label">Title</label>
+									<div class="col-sm-10">
+										<input type="email" class="form-control" id="inputTitle" placeholder="Title">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="inputAbstract" class="col-sm-2 control-label">Abstract</label>
+									<div class="col-sm-10">
+										<textarea class="form-control" id="inputAbstract" rows="3"></textarea>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-primary">Save changes</button>
+							</div>
+							</form>
+					</div>
+				</div>
+			</div>
+
             <div class="speakers-section-2 parallax" data-stellar-background-ratio="0.5">
-                <div class="container text-center wow animated bounceIn">
-                    <h1>Interested in speaking at JSinSA? </h1>
-                    <p class="scrollto"><a href="#contact" class="btn btn-lg btn-theme-color">Contact us</a></p>
+                <div class="container text-center wow animated bounceIn" >
+                    <h1 style="margin:0px;">Interested in speaking at JSinSA? </h1>
+  <!--                  <h1>Interested in speaking at JSinSA? </h1>
+					<button data-toggle="modal" class="btn btn-primary btn-lg" data-target="#modalSubmission">
+						Submit your idea			
+						</button>-->
                 </div>
             </div>
         </section>
@@ -316,7 +371,7 @@
                         <h2 class="large section-title">Register</h2>
 						<p>Last year we sold out in 3.5 days, so don't delay booking your tickets :-)</p>
 						<br/>
-						<p>Registration will open early April.</p>
+						<p>Registration will open mid April.</p>
                     </div><!--section heading-->
                 </div><!--section heading-->
                 <div class="container">
@@ -337,7 +392,7 @@
                                     </div>
 
 									<div class="price-join">	
-										<a href="#" class="btn btn-lg btn-theme-color disabled">Open early April</a>
+										<a href="#" class="btn btn-lg btn-theme-color disabled">Opens mid-April</a>
 									</div>
                                 </div>
                             </div>
