@@ -1082,7 +1082,7 @@ bootstrap overrides badge and pagination
     font-size: 14px;
 }
 .price-desc{
-    padding:15px 0;
+    padding:15px 10px;
 }
 .price-desc p{
     color:#333;
