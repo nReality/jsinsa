@@ -580,11 +580,22 @@ h3.heading-progress {
 	border-radius:5px;
 	box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.3);
 }
-.sponsors-row img{
+.sponsor-button {
+	background-color:rgba(0,0,0,0);
+	border:0px;
+}
+
+.sponsor-button img{
 	padding-top:5px;
 	padding-bottom:5px;
 }
 
+
+@media(max-width:767px){
+	.sponsor-button img{
+		max-width:200px;
+	}
+}
 .sponsors-section-2{
     background: url('http://www.findfreewifi.co.za/jsinsa2015img/showcase-sponsors.jpg') no-repeat center center fixed;
     width:100%;
