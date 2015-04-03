@@ -271,10 +271,13 @@ body.modal-open {
 .modal-body {
 	text-align:left;
 }
-
+.modal-body h5 {
+	margin-top:30px;
+}
 .modal-body .icon {
 	vertical-align:middle;
 }
+.modal-body .icon i,
 .modal-footer .icon i {
 	position:relative;
 	top:3px;
@@ -944,26 +947,35 @@ bootstrap overrides badge and pagination
     padding-top:30px;
     padding-bottom: 20px;
 }
-.team-line{
+.speaker-line{
     text-align: center;
 }
-.team-line img{
-    margin:20px 0;
+.speaker-line img{
     vertical-align: middle;
-    border-radius: 4px;
     position: relative;
     top: 0px;
-
-    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.4);
-    -webkit-transition: top 0.15s linear;
-    -moz-transition: top 0.15s linear;
-    -ms-transition: top 0.15s linear;
-    -o-transition: top 0.15s linear;
-    transition: top 0.15s linear; 
+	width:175px;
 }
-.team-line img:hover{
-    top: -5px;
-    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.5);
+
+.speaker-box {
+	width:225px;
+	text-align:center;
+	border:1px solid #ddd;
+	margin:20px 0px;
+	background-color:rgba(0,0,0,0);
+	border:0px;
+}
+.speaker-box h5 {
+	margin-top:10px;
+	margin-bottom:5px;
+}
+.speaker-box p {
+	white-space: nowrap;
+	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	text-overflow: ellipsis;
+
 }
 
 .speakers-section-2{
