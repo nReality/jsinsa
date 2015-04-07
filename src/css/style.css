@@ -276,6 +276,7 @@ body.modal-open {
 }
 .modal-body .icon {
 	vertical-align:middle;
+	white-space:nowrap;
 }
 .modal-body .icon i,
 .modal-footer .icon i {
